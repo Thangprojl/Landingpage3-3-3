@@ -34,6 +34,10 @@ body {
     font-size: 1.8rem;
     color: #ffffff;
 }
+.btn:hover {
+    opacity: 0.9;
+    transition: 0.4s;
+}
 .limited-text {
     display: -webkit-box;
     -webkit-line-clamp: var(--line-clamp, 3); /* số dòng hiển thị */
